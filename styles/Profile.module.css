@@ -1,0 +1,38 @@
+.back-purple {
+  height: 250px;
+  background-color: #5e50a1;
+}
+
+.profile-left {
+  background-color: #fff;
+  margin-top: -200px;
+  border-radius: 5px;
+}
+
+.profile-right {
+  background-color: #fff;
+  margin-top: -200px;
+  border-radius: 5px;
+}
+
+.skill {
+  background-color: #fbb01799;
+  padding: 3px 6px 3px 6px;
+  color: rgb(39, 39, 39);
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #fbb017;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.tab:hover {
+  cursor: pointer;
+}
+
+/* width di bawah 768px */
+@media (max-width: 768px) {
+  .profile-right {
+    margin-top: 20px;
+  }
+}

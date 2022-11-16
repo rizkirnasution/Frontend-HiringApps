@@ -1,0 +1,36 @@
+.top {
+  background-color: #5e50a1;
+  color: #fff;
+}
+
+.worker {
+  border-radius: 7px;
+  border: 1px solid gray;
+}
+
+.worker .title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.worker .picture {
+  object-fit: cover;
+}
+
+.worker .skill {
+  background-color: #fbb01799;
+  padding: 3px 6px 3px 6px;
+  color: rgb(39, 39, 39);
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #fbb017;
+  display: inline-block;
+  border-radius: 2px;
+}
+.pagination {
+  width: auto;
+  display: flex;
+  margin: 0 auto;
+  gap: 5px;
+  justify-content: center;
+}
